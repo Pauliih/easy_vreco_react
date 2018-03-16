@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
+import Findme from './Findme/Findme';
 
 class Navigator extends Component {
   render() {

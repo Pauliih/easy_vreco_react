@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 import PropTypes from 'prop-types';
+import Findme from './../../Navigator/Findme/Findme';
 
 export class MapContainer extends Component {
 
@@ -27,23 +28,9 @@ export class MapContainer extends Component {
       initialCenter={{lat: this.state.lat, lng: this.state.lng}}/>  
     );
   }
-
-  componentDidMount() {
-    if (this.props.centerAroundCurrentLocation) {
-        if (navigator && navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition((pos) => {
-                const coords = pos.coords;
-                this.setState({
-                    currentLocation: {
-                        lat: coords.latitude,
-                        lng: coords.longitude
-                    }
-                })
-            })
-        }
-    }
-    this.loadMap();
 }
+
+
 
 Map.propTypes = {
   google: PropTypes.object,
