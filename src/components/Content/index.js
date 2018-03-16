@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TitleContent from './TitleContent';
+import MapContainer from './MapContainer';
 import './styles.css';
 
 class Content extends Component {
@@ -8,7 +9,9 @@ class Content extends Component {
       <section>
         <TitleContent />
         <div className="container-fluid col-12 d-flex justify-content-center">
-          <div id="map"></div>
+          <div id="map">
+            <MapContainer/>
+          </div>
         </div>
       </section>
     );
