@@ -1,0 +1,12 @@
+body {
+  background-color: #DAF7A6;
+  color: #28A745!important;
+}
+
+button, input {
+  margin: 2%;
+}
+
+label {
+  margin-top: 4%;
+}
