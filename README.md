@@ -25,4 +25,4 @@ Dependencias ocupadas para este proyecto:
 - bootstrap v4.0
 
 ## Wireframe con componentes
-![IMAGE](https://github.com/Pauliih/easy_vreco_react/raw/master/src/assets/img/easy_vreco_react_wireframe.png "Wireframe")
+![IMAGE](https://github.com/Pauliih/easy_vreco_react/blob/gh-pages/src/assets/img/easy_vreco_react_wireframe.png "Wireframe")
